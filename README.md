@@ -1,4 +1,5 @@
-# YOLOv5 Object Detection Script
+# Vehicle-Distance-Detection-on-Single-Camera
+
 
 This script is designed to perform object detection using the YOLOv5 model. It processes images or videos, detects objects, and annotates them with bounding boxes, labels, and confidence scores. The script also estimates distances between objects using their bounding box dimensions.
 
@@ -7,7 +8,7 @@ This script is designed to perform object detection using the YOLOv5 model. It p
 ## Code Description
 
 ### 1. **Import Libraries**:
-   - **`argparse`**: Handles command-line arguments for model configuration and input/output settings.
+   - **`argparse`**: Handles command-line arguments for model configuratio  n and input/output settings.
    - **`torch`** and **`cudnn`**: Utilize PyTorch for model operations and optimize GPU computations.
    - Utility modules like `utils.datasets`, `utils.utils`, and `utils.downloads` manage data handling and preprocessing.
 
